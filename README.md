@@ -1,22 +1,27 @@
-<h1>Mega Networking Lab</h1>
+<h1>Enterprise Network Design and Configuration Lab</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This lab simulates the design, configuration, and verification of a multi-office enterprise network, consisting of Office A and Office B, connected through a redundant core network to the Internet. The design follows a hierarchical model with Core, Distribution, and Access layers, supporting wired PCs, IP phones, wireless clients, and centralized services. Key configurations include VLAN creation and propagation using VTP, trunking with DTP disabled, and EtherChannel for link redundancy (PAgP in Office A, LACP in Office B). HSRPv2 and Rapid PVST+ provide gateway redundancy and optimized Layer-2 paths. IPv4  addressing scheme was deployed across all devices, with OSPFv2 ensuring dynamic routing and Internet failover via dual uplinks on R1. Essential services such as DHCP, DNS, NTP, SNMP, Syslog, NAT/PAT, and secure SSHv2 management were configured, alongside security measures like extended ACLs, Port Security, DHCP Snooping, and Dynamic ARP Inspection. The wireless network is managed centrally via WLC1 with WPA2-PSK encryption.
+This lab provides hands-on experience in enterprise network deployment, redundancy, routing, security, and service integration, reflecting real-world best practices in scalable network design. 
+
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Tools/Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Cisco Packet Tracer</b> 
 
-<h2>Environments Used </h2>
+<h2>Lab Tasks Overview:</h2>
+The lab is divided into nine major parts, each implementing key enterprise networking concepts and configurations:
 
-- <b>Windows 10</b> (21H2)
+- <b>Part 1 – Initial Setup</b>
 
-<h2>Program walk-through:</h2>
+•	Assigned hostnames, configured secure enable passwords using type 5 and 9 hashing, created local user accounts with encrypted secrets, and secure console access with local authentication.
+•	Applied session timeout and enable synchronous logging.
+
+
 
 <p align="center">
 Launch the utility: <br/>
