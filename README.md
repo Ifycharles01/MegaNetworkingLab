@@ -17,23 +17,25 @@ This lab provides hands-on experience in enterprise network deployment, redundan
 The lab is divided into nine major parts, each implementing key enterprise networking concepts and configurations:
 
 - <b>Part 1 – Initial Setup</b>
-
-•	Assigned hostnames, configured secure enable passwords using type 5 and 9 hashing, created local user accounts with encrypted secrets, and secure console access with local authentication.
-•	Applied session timeout and enable synchronous logging.
-
-
-
+  - Assigned hostnames, configured secure enable passwords using type 5 and 9 hashing, created local user accounts with encrypted secrets, and secure console access with local authentication.
+  - Applied session timeout and enable synchronous logging.
+ 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/r483DFN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
+- <b>Part 2 – VLANs and Layer-2 EtherChannels</b>
+  - Implemented Layer-2 EtherChannels between distribution switches in both offices:	Office A uses Cisco-proprietary protocol (PAgP) while Office B uses open standard protocol (LACP).
+  - Configured trunk links between access and distribution switches (including the EtherChannel), disabled DTP, set native VLAN 1000, and allowed specific VLANs per office e.g. VLANs 10,20,40 and 99 in office A
+  - Configured VTPv2 using ifyITlab domain and one distribution switch as the server in each office and access switches as clients.
+  - Created and named VLANs for PCs (Vlan 10), Phones, Wi-Fi (Vlan 40), Servers (Vlan 30), and Management (Vlan 99) in each office.
+  - Assigned VLANs to access ports for PCs, phones, APs, and SRV1, with unused ports administratively disabled for security reasons.
+<p align="center">
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s4f2Kcb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+        <br/>
+<img src="https://i.imgur.com/mN4j5O8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
