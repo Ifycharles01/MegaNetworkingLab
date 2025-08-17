@@ -66,6 +66,77 @@ Confirm your selection:  <br/>
 <br />
 <img src="https://i.imgur.com/VTOgv40.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+- <b>Part 5 – Routing</b>
+  - Enabled Rapid PVST+ and set root bridge priorities to match HSRP active devices.
+  - Implemented OSPFv2 across R1, Core, and Distribution switches with loopback-based Router IDs.
+  - Configured static default routes on R1 for dual Internet uplinks with floating route failover.
+  - Redistributed default routes into OSPF for enterprise-wide Internet access.
+
+<p align="center">
+<br />
+<img src="https://i.imgur.com/Ypyr2Yk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+<img src="https://i.imgur.com/Vsi3AiD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+<img src="https://i.imgur.com/g5kxxv6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- <b>Part 6 – Network Services</b>
+  - Configured DHCP pools on R1 for all VLANs, excluding reserved addresses.
+  - Enabled DHCP relay on distribution switches.
+  - Configured DNS on SRV1 for internal and external domain resolution.
+  - Implemented NTP, SNMP, and Syslog across all devices.
+  - Used FTP to update R1’s IOS.
+  - Enabled SSHv2 with ACL restrictions for secure remote access.
+  - Configured NAT/PAT for Internet access and public server hosting.
+  - Used LLDP for neighbor discovery.
+
+<p align="center">
+<br />
+<img src="https://i.imgur.com/TbEYdWl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+<img src="https://i.imgur.com/2CY7O4h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+<img src="https://i.imgur.com/lV3ME32.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- <b>Part 7 – Security</b>
+  - Implemented extended ACLs to control inter-office traffic between PC subnets.
+  - Used Port Security to prevent MAC spoofing
+  - Enabled DHCP Snooping and Dynamic ARP Inspection (DAI) for Layer-2 security.
+
+ <p align="center">
+<br />
+<img src="https://i.imgur.com/KLAdnsf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+<img src="https://i.imgur.com/XwG7Cm0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+<img src="https://i.imgur.com/An7s7MK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/fl7K914.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- <b>Part 8 – IPv6</b>
+  - Enabled IPv6 routing on R1, CSW1, and CSW2, assign IPv6 addresses
+
+<p align="center">
+<br />
+ <img src="https://i.imgur.com/ix7oQfc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ <br />
+<img src="https://i.imgur.com/IYH6MTy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+    
+ 
+
+
+
 
 
 
