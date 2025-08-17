@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <p align="center">
-Network Diagram:  <br/>
+<h2>Network Diagram</h2>
 <img src="https://i.imgur.com/MBsEHWS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h2>Description</h2>
@@ -13,12 +13,12 @@ This lab provides hands-on experience in enterprise network deployment, redundan
 <br />
 
 
-<h2>Tools/Utilities Used</h2>
+<h2>Tools Used</h2>
 
 - <b>Cisco Packet Tracer</b> 
 
 <h2>Lab Tasks Overview:</h2>
-The lab is divided into nine major parts, each implementing key enterprise networking concepts and configurations:
+The lab was divided into nine major parts, each implementing key enterprise networking concepts and configurations:
 
 - <b>Part 1 – Initial Setup</b>
   - Assigned hostnames, configured secure enable passwords using type 5 and 9 hashing, created local user accounts with encrypted secrets, and secure console access with local authentication.
