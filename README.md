@@ -39,8 +39,38 @@ The lab is divided into nine major parts, each implementing key enterprise netwo
 <br />
 <br />
 Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/C9xwIJj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
+- <b>Part 3 – IP Addressing, Layer-3 EtherChannel, and HSRP</b>
+  - Assigned IPv4 addresses to R1, Core, and Distribution switches, including loopback interfaces.
+  - Implemented Layer-3 EtherChannel between CSW1 and CSW2.
+  - Configured HSRPv2 for each VLAN, ensuring alignment with STP root bridge roles for redundancy and load balancing.
+  - Configured SRV1 with static IP settings and assigned management IPs to all access switches.
+
+ <p align="center">
+<br />
+<img src="https://i.imgur.com/U8APsTD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/yQLMbtI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- <b>Part 4 – Rapid Spanning Tree Protocol (RSTP)</b>
+  - Enabled Rapid PVST+ and set root bridge priorities to match HSRP active devices.
+  - Enabled PortFast and BPDU Guard on all end-host-facing ports.
+    
+ <p align="center">
+<br />
+<img src="https://i.imgur.com/lbPA8W7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+<img src="https://i.imgur.com/VTOgv40.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+
+
+ 
 <br />
 Wait for process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
