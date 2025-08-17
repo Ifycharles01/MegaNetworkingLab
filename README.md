@@ -8,7 +8,7 @@
 
 <h2>Description</h2>
 This lab simulates the design, configuration, and verification of a multi-office enterprise network, consisting of Office A and Office B, connected through a redundant core network to the Internet. The design follows a hierarchical model with Core, Distribution, and Access layers, supporting wired PCs, IP phones, wireless clients, and centralized services. Key configurations include VLAN creation and propagation using VTP, trunking with DTP disabled, and EtherChannel for link redundancy (PAgP in Office A, LACP in Office B). HSRPv2 and Rapid PVST+ provide gateway redundancy and optimized Layer-2 paths. IPv4  addressing scheme was deployed across all devices, with OSPFv2 ensuring dynamic routing and Internet failover via dual uplinks on R1. Essential services such as DHCP, DNS, NTP, SNMP, Syslog, NAT/PAT, and secure SSHv2 management were configured, alongside security measures like extended ACLs, Port Security, DHCP Snooping, and Dynamic ARP Inspection. The wireless network is managed centrally via WLC1 with WPA2-PSK encryption.
-This lab provides hands-on experience in enterprise network deployment, redundancy, routing, security, and service integration, reflecting real-world best practices in scalable network design. 
+This lab provides hands-on experience in enterprise network deployment, redundancy, routing, security, and service integration, reflecting real-world best practices in scalable network design. I worked on this lab when I was preparing to write my CCNA certification.
 
 <br />
 
