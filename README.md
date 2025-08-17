@@ -130,10 +130,26 @@ Confirm your selection:  <br/>
  <br />
 <img src="https://i.imgur.com/IYH6MTy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+- <b>Part 9 – Wireless</b>
+  - Configured WLC1 via GUI to manage Wi-Fi VLAN (VLAN 40) with WPA2-PSK security.
+  - Associated LWAP1 and LWAP2 to WLC1 for centralized wireless management.
 
+<p align="center">
+<br />
+ <img src="https://i.imgur.com/XgJLUCJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ <br />
+<img src="https://i.imgur.com/7Dh6fMS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+  <br /
+<img src="https://i.imgur.com/XmJa0Zr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ <br />
+<img src="https://i.imgur.com/KjStrvz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ <br />
+<img src="https://i.imgur.com/RGkj0AX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-    
- 
 
 
 
