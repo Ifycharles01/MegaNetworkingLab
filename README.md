@@ -1,6 +1,5 @@
 <h1>Enterprise Network Design and Configuration Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <p align="center">
 <h2>Network Diagram</h2>
